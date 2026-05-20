@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    line-height: 1.6;
+    color: rgb(6, 10, 66);
+    background:linear-gradient( rgba(0,0,0,0.5)),;
+    background-color: rgb(255, 251, 251);
+}
+.hero{
+    height:80vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('image/burji\ 3.jpg');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.card{
+    background:rgb(255, 255, 255);
+    border-radius:10px;
+    padding: 1.5rem;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+    display: grid;
+}
+.card-content h2{
+    margin-bottom:15px;
+    color:#003366;
+}
+nav ul{
+    display:flex;
+    list-style:none;
+    flex-wrap:wrap;
+}
+nav ul li{
+    margin-left:40px;
+}
+nav ul li a{
+    color:#ac00f0;
+    text-decoration:none;
+    font-weight:500;
+    font-size: 1.5rem;
+transition: color 0.35;
+}
+.hero p{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.content{
+    max-width: 1100px;
+    margin: 0 3rem;
+    padding: 0 2rem;
+}
+.btn{
+    display:inline-block;
+    padding: 0.5rem 2rem;
+    background:gold;
+    color:black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: 2rem;
+}
+footer{
+    margin: 5rem;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    background-color: #320e86;
+    display: flex;
+}
+.card-container{
+    display: column;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap: 100px;
+    width: 100%;
+}
+.card img{
+    width: 45rem;
+    height: 200 px;
+    object-fit: cover;
+}
+.hero h1{
+    font-size: 4rem;
+    margin-bottom: 1rem ;
+}
+.about-content{
+    display:block;
+    align-items:center;
+    text-align: center;
+    margin : 50px;
+    padding: 50px;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color:#003366
+}
