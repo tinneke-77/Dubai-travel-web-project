@@ -116,3 +116,21 @@ footer{
     font-weight: bold;
     color:#003366
 }
+body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;  /* Stops the text from getting too wide on desktop */
+      width: 100%;       /* Allows it to shrink perfectly on mobile */
+      margin: 0 auto;    /* Centers the layout on the screen */
+    }
+
+    /* Makes sure images never spill off the screen */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
